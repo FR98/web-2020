@@ -28,7 +28,7 @@ from owner.views import OwnerViewSet
 router = routers.DefaultRouter()
 
 router.register(r'pets', PetViewSet)
-router.register(r'owner', OwnerViewSet)
+router.register(r'owners', OwnerViewSet)
 
 # elapp.com/pets
 # elapp.com/api/v1/pets
